@@ -50,7 +50,7 @@
             <key>name</key>
             <string>Constant</string>
             <key>scope</key>
-            <string>constant</string>
+            <string>constant, constant.numeric.css</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -74,13 +74,13 @@
             <key>name</key>
             <string>Keyword</string>
             <key>scope</key>
-            <string>keyword</string>
+            <string>keyword, keyword.control.flow.js.jsx, keyword.control.flow.python</string>
             <key>settings</key>
             <dict>
                 <key>fontStyle</key>
                 <string> bold</string>
                 <key>foreground</key>
-                <string>#ff9900</string>
+                <string>#f97800</string>
             </dict>
         </dict>
         <dict>
@@ -126,7 +126,7 @@
             <key>name</key>
             <string>Variable</string>
             <key>scope</key>
-            <string>meta.definition.variable.js.jsx, variable</string>
+            <string>meta.definition.variable.js.jsx</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -349,7 +349,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#F6F080</string>
+                <string>#fc29b6</string>
             </dict>
         </dict>
         <dict>
@@ -696,7 +696,9 @@
             <key>name</key>
             <string>JavaScript regular</string>
             <key>scope</key>
-            <string>variable.other.property.js, variable.other.object.property.js, support.variable.property.dom.js, variable.other.readwrite.js.jsx</string>
+            <string>variable.other.property.js,
+            variable.other.object.property.js, support.variable.property.dom.js,
+            source.python, variable</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -728,9 +730,13 @@
         <dict></dict>
         <dict>
             <key>name</key>
-            <string>React Component</string>
+            <string>React Component; Python special</string>
             <key>scope</key>
-            <string>support.class.component.js.jsx</string>
+            <string>support.class.component.js.jsx,
+            storage.type.function.async.python, storage.type.function.python,
+            storage.type.class.python,
+            variable.parameter.function.language.python,
+            meta.tag.template.variable.quip-template.template</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -739,9 +745,12 @@
         </dict>
         <dict>
             <key>name</key>
-            <string>React Keys</string>
+            <string>React Keys, Python params</string>
             <key>scope</key>
-            <string>entity.other.attribute-name.js.jsx</string>
+            <string>entity.other.attribute-name.js.jsx,
+            variable.parameter.function-call.python,
+            entity.other.attribute-name.html,
+            </string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -750,13 +759,17 @@
         </dict>
         <dict>
             <key>name</key>
-            <string>React JSX</string>
+            <string>React JSX, Python class</string>
             <key>scope</key>
-            <string>entity.name.tag.js.jsx</string>
+            <string>entity.name.tag.js.jsx, entity.name.type.class.python,
+            storage.type.string.python,
+            entity.name.tag.block.any.html, meta.tag.inline.any.html,
+            entity.name.tag.inline.any.html,
+            constant.character.format.placeholder.other.python</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#00f9ae</string>
+                <string>#00f991</string>
             </dict>
         </dict>
         <dict>
@@ -772,13 +785,46 @@
         </dict>
         <dict>
             <key>name</key>
-            <string>JSDoc</string>
+            <string>Python constant</string>
             <key>scope</key>
-            <string>meta.object-literal.key.js.jsx</string>
+            <string>constant.other.caps.python</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
                 <string>#0297e8</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>LESS props</string>
+            <key>scope</key>
+            <string>support.type.property-name.css</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#fc7e2a</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>This and self</string>
+            <key>scope</key>
+            <string>variable.language.this.js.jsx, support.variable.magic.python, variable.language.special.self.python</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#f9f000</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Python functions</string>
+            <key>scope</key>
+            <string>meta.function-call.generic.python</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#00fdff</string>
             </dict>
         </dict>
     </array>
