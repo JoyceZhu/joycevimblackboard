@@ -74,7 +74,9 @@
             <key>name</key>
             <string>Keyword</string>
             <key>scope</key>
-            <string>keyword, keyword.control.flow.js.jsx, keyword.control.flow.python</string>
+            <string>keyword, keyword.control.flow.js.jsx,
+                keyword.control.flow.tsx,
+                keyword.control.flow.python</string>
             <key>settings</key>
             <dict>
                 <key>fontStyle</key>
@@ -126,7 +128,9 @@
             <key>name</key>
             <string>Variable</string>
             <key>scope</key>
-            <string>meta.definition.variable.js.jsx</string>
+            <string>meta.definition.variable.js.jsx,
+                meta.definition.variable.tsx
+            </string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -733,6 +737,7 @@
             <string>React Component; Python special</string>
             <key>scope</key>
             <string>support.class.component.js.jsx,
+            support.class.component.tsx,
             storage.type.function.async.python, storage.type.function.python,
             storage.type.class.python,
             variable.parameter.function.language.python,
@@ -748,6 +753,7 @@
             <string>React Keys, Python params</string>
             <key>scope</key>
             <string>entity.other.attribute-name.js.jsx,
+            entity.other.attribute-name.tsx,
             variable.parameter.function-call.python,
             entity.other.attribute-name.html,
             </string>
@@ -761,7 +767,9 @@
             <key>name</key>
             <string>React JSX, Python class</string>
             <key>scope</key>
-            <string>entity.name.tag.js.jsx, entity.name.type.class.python,
+            <string> entity.name.type.class.python,
+
+            entity.name.type.class.tsx,
             storage.type.string.python,
             entity.name.tag.block.any.html, meta.tag.inline.any.html,
             entity.name.tag.inline.any.html,
@@ -776,7 +784,12 @@
             <key>name</key>
             <string>JSDoc</string>
             <key>scope</key>
-            <string>entity.name.type.instance.jsdoc, meta.object-literal.key.js.jsx</string>
+            <string>entity.name.type.instance.jsdoc,
+            support.type.primitive.tsx,
+            meta.class.tsx,
+            entity.name.type.tsx,
+            meta.object-literal.key.js.jsx,
+            meta.object-literal.key.tsx</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -809,7 +822,10 @@
             <key>name</key>
             <string>This and self</string>
             <key>scope</key>
-            <string>variable.language.this.js.jsx, support.variable.magic.python, variable.language.special.self.python</string>
+            <string>variable.language.this.js.jsx,
+                variable.language.this.tsx,
+                support.variable.magic.python,
+                variable.language.special.self.python</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
