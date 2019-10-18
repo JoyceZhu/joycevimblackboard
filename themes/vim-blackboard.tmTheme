@@ -713,7 +713,8 @@
             <key>name</key>
             <string>JavaScript calls</string>
             <key>scope</key>
-            <string>entity.name.function.js</string>
+            <string>entity.name.function.js,
+                entity.name.function.tsx</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -768,7 +769,10 @@
             <string>React JSX, Python class</string>
             <key>scope</key>
             <string> entity.name.type.class.python,
-
+            entity.name.tag.js.jsx,
+            entity.name.tag.tsx,
+            meta.class.tsx,
+            entity.name.type.tsx,
             entity.name.type.class.tsx,
             storage.type.string.python,
             entity.name.tag.block.any.html, meta.tag.inline.any.html,
@@ -785,9 +789,6 @@
             <string>JSDoc</string>
             <key>scope</key>
             <string>entity.name.type.instance.jsdoc,
-            support.type.primitive.tsx,
-            meta.class.tsx,
-            entity.name.type.tsx,
             meta.object-literal.key.js.jsx,
             meta.object-literal.key.tsx</string>
             <key>settings</key>
