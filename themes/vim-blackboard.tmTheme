@@ -739,6 +739,8 @@
             <key>scope</key>
             <string>support.class.component.js.jsx,
             support.class.component.tsx,
+            entity.name.type.class.tsx,
+            entity.name.type.alias.tsx,
             storage.type.function.async.python, storage.type.function.python,
             storage.type.class.python,
             variable.parameter.function.language.python,
@@ -753,7 +755,9 @@
             <key>name</key>
             <string>React Keys, Python params</string>
             <key>scope</key>
-            <string>entity.other.attribute-name.js.jsx,
+            <string>
+            entity.name.type.tsx,
+            entity.other.attribute-name.js.jsx,
             entity.other.attribute-name.tsx,
             variable.parameter.function-call.python,
             entity.other.attribute-name.html,
@@ -771,9 +775,6 @@
             <string> entity.name.type.class.python,
             entity.name.tag.js.jsx,
             entity.name.tag.tsx,
-            meta.class.tsx,
-            entity.name.type.tsx,
-            entity.name.type.class.tsx,
             storage.type.string.python,
             entity.name.tag.block.any.html, meta.tag.inline.any.html,
             entity.name.tag.inline.any.html,
@@ -784,13 +785,14 @@
                 <string>#00f991</string>
             </dict>
         </dict>
+
         <dict>
             <key>name</key>
             <string>JSDoc</string>
             <key>scope</key>
             <string>entity.name.type.instance.jsdoc,
-            meta.object-literal.key.js.jsx,
-            meta.object-literal.key.tsx</string>
+            meta.object-literal.key.js.jsx
+            </string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
